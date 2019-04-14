@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title slot="start">
+      PlastiX
+    </ion-title>
+	<ion-buttons slot="end">
+	  <ion-button><ion-icon name="ios-home"></ion-icon></ion-button>
+	</ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+	<div align="center" class="allpadding">
+	  <ion-avatar class="ion-titlesize">
+		<img src="/assets/weatherwax.jpg">
+	  </ion-avatar>
+	  <ion-title class="namesize">Esmerelda Weatherwax</ion-title>
+    </div>
+	
+	<ion-card>
+	<ion-slides pager="true" [options]="slideOpts">
+  	  <ion-slide>
+        <ion-list lines="none"  class="fullwidth">
+          <ion-list-header>
+            Weekly Statistics
+          </ion-list-header>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-leaf"></ion-icon>
+            <ion-label>Your Points:</ion-label>
+		    <ion-label>1337</ion-label>
+          </ion-item>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-trash"></ion-icon>
+            <ion-label>Your Plastic Usage:</ion-label>
+		    <ion-label>42 grams</ion-label>
+          </ion-item>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-eye"></ion-icon>
+            <ion-label>Trouble Spots Reported:</ion-label>		
+		    <ion-label>2</ion-label>
+          </ion-item>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-water"></ion-icon>
+            <ion-label>Trouble Spots Cleaned:</ion-label>		
+		    <ion-label>3</ion-label>
+          </ion-item>
+		</ion-list>
+	  </ion-slide>
+	  
+	  <ion-slide>
+        <ion-list lines="none"  class="fullwidth">
+          <ion-list-header>
+            Summary
+          </ion-list-header>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-leaf"></ion-icon>
+            <ion-label>Total Points:</ion-label>
+		    <ion-label>9001</ion-label>
+          </ion-item>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-trash"></ion-icon>
+            <ion-label>Total Plastic Usage:</ion-label>
+		    <ion-label>420 grams</ion-label>
+          </ion-item>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-eye"></ion-icon>
+            <ion-label>Total Trouble Spots Reported:</ion-label>		
+		    <ion-label>22</ion-label>
+          </ion-item>
+		  <ion-item>
+            <ion-icon slot="start" color="medium" name="ios-water"></ion-icon>
+            <ion-label>Total Trouble Spots Cleaned:</ion-label>		
+		    <ion-label>33</ion-label>
+          </ion-item>
+		</ion-list>
+      </ion-slide>
+    
+	</ion-slides>
+	</ion-card>
+
+	<div align="center" class="allpadding">
+	  <ion-button>
+	    <ion-icon slot="start" name="ios-nutrition"></ion-icon>
+	    Rewards
+	  </ion-button>
+	</div>
+	
+</ion-content>
